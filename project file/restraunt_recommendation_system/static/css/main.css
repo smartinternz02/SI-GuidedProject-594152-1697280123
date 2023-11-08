@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 100%; /* Adjust the maximum width as needed */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in the width */
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%; /* Ensure the table doesn't exceed the content width */
+    overflow-x: auto; /* Add horizontal scrolling if necessary */
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 70%;
+    max-width: 100%; /* Adjust the maximum width as needed */
+}
